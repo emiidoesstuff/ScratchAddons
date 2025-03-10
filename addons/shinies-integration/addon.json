@@ -1,0 +1,22 @@
+{
+  "name": "Shinies Integration",
+  "description": "Implements Shinies features (send, request, etc.) on Scratch profiles and forums.",
+  "credits": [
+    {
+      "name": "Shinies",
+      "link": "https://shinies.fun/"
+    }
+  ],
+  "dynamicEnable": true,
+  "dynamicDisable": true,
+  "userscripts": [
+    {
+      "url": "userscript.js",
+      "matches": ["https://scratch.mit.edu/users/*/", "https://scratch.mit.edu/discuss/*"]
+    }
+  ],
+  "versionAdded": "1.41.0",
+  "tags": ["community", "profiles", "forums"],
+  "enabledByDefault": false,
+  "beta": true
+}
